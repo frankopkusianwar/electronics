@@ -1,2 +1,8 @@
 @import './nav.css'; 
 @import './slider.css';
+@import './App.css';
+@import './home.css';
+
+body {
+  background: rgba(0, 0, 0, 0.07);
+}

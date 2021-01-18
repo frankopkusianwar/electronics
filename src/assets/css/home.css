@@ -1,0 +1,13 @@
+.home-aside {
+  background: white;
+}
+
+.home-content {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.item {
+  border: 1px solid white;
+  border-radius: 5px;
+}
