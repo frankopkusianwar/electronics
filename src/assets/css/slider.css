@@ -5,3 +5,58 @@
 .image-container img {
   height: 500px;
 }
+
+.car-slide {
+  position:relative;
+}
+
+.search-form {
+  width: 40%;
+  position:absolute;
+  z-index:1;
+  top:150px;
+  left:400px;
+  right:auto;
+  bottom:auto;
+}
+
+/* search field styles */
+
+/* Style the search field */
+.search-form input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid lightgray;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+/* Style the submit button */
+.search-form button {
+  border: 1px solid  #f4511e;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  float: left;
+  width: 10%;
+  border-left: none;
+  padding: 10px;
+  background: #f4511e;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  border-bottom-right-radius: 3px;
+  background: #962a09;
+}
+
+/* Clear floats */
+.search-form::after {
+  content: "";
+  clear: both;
+  display: table;
+}

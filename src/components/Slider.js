@@ -6,7 +6,11 @@ import img3 from '../assets/images/slide3.jpg'
 const Slider = () => {
   return(
     <div className="slider">
-      <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+      <div class="form-group search-form">    
+        <input type="text" placeholder="Search.." name="search"/>
+        <button type="submit">Go</button>
+      </div>
+      <div id="carouselExampleIndicators" className="carousel slide car-slide" data-ride="carousel">
         <ol className="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -20,6 +24,7 @@ const Slider = () => {
             <img className="d-block w-100" src={img2} alt="Second slide"/>
           </div>
           <div className="carousel-item image-container">
+
             <img className="d-block w-100" src={img3} alt="Third slide"/>
           </div>
         </div>
