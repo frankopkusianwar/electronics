@@ -1,10 +1,12 @@
 import React from 'react';
+import Navbar from './nav/Navbar'
 import Slider from './Slider'
 import Footer from './Footer'
 
 const Home = () => {
   return (
     <div>
+      <Navbar />
       <Slider />
       <div className="row home mx-3 mt-3">
         <div className="col-3 home-aside mt-2">
